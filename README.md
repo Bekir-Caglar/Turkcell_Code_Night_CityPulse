@@ -22,11 +22,17 @@ CityPulse, Türkiye'nin şehirlerindeki çevresel ve teknolojik verileri izleyen
 
 ## Kurulum
 
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
 ### Gereksinimler
 - Flutter SDK (3.0+)
 - Dart SDK (3.0+)
 - Android Studio veya VS Code
 - Git
+
 
 ### Adımlar
 1. **Depoyu Klonlayın**:
@@ -44,13 +50,6 @@ CityPulse, Türkiye'nin şehirlerindeki çevresel ve teknolojik verileri izleyen
    ```bash
    flutter run
    ```
-
-### API Kurulumu
-Uygulamanın çalışması için backend API'si gereklidir. API'yi ayrı bir repository'den kurabilirsiniz.
-
-- **Base URL**: `http://10.246.95.185:8000` (Android için IP adresi)
-- **Port**: 8000
-- **Framework**: FastAPI veya Django
 
 ## Kullanım
 
@@ -136,13 +135,5 @@ flutter logs
 ## Lisans
 
 Bu proje MIT Lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın.
-
-## İletişim
-
-- **Geliştirici**: Bekir Çağlar
-- **GitHub**: [@Bekir-Caglar](https://github.com/Bekir-Caglar)
-- **E-posta**: [bekir.caglar@example.com]
-
----
 
 *CityPulse - Şehirlerin Nabzını Tutan Uygulama*
