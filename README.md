@@ -2,6 +2,8 @@
 
 CityPulse, Türkiye'nin şehirlerindeki çevresel ve teknolojik verileri izleyen, vatandaşların geri bildirimlerini toplayan ve şehir yönetimini destekleyen modern bir mobil uygulamadır.
 
+🏆 **Turkcell CodeNight 2024 - 2. Ödül**
+
 ## Özellikler
 
 ### Ana Özellikler
@@ -22,19 +24,15 @@ CityPulse, Türkiye'nin şehirlerindeki çevresel ve teknolojik verileri izleyen
 
 ## Kurulum
 
-- python3 -m venv .venv
-- source .venv/bin/activate
-- pip install -r requirements.txt
-- uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-
 ### Gereksinimler
 - Flutter SDK (3.0+)
 - Dart SDK (3.0+)
 - Android Studio veya VS Code
+- Python 3.8+
 - Git
 
+### Flutter Uygulaması Kurulumu
 
-### Adımlar
 1. **Depoyu Klonlayın**:
    ```bash
    git clone https://github.com/Bekir-Caglar/Code_Night_Yolcu.git
@@ -50,6 +48,32 @@ CityPulse, Türkiye'nin şehirlerindeki çevresel ve teknolojik verileri izleyen
    ```bash
    flutter run
    ```
+
+### Backend API Kurulumu
+
+Backend API'sini kurmak için aşağıdaki adımları izleyin:
+
+1. **Virtual Environment Oluşturun**:
+   ```bash
+   python3 -m venv .venv
+   ```
+
+2. **Virtual Environment'ı Aktifleştirin**:
+   ```bash
+   source .venv/bin/activate
+   ```
+
+3. **Bağımlılıkları Yükleyin**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **API Sunucusunu Başlatın**:
+   ```bash
+   uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+   ```
+
+**Not**: Backend API varsayılan olarak `http://localhost:8000` adresinde çalışır. Android cihazlarda test ederken bilgisayarınızın IP adresini kullanmanız gerekebilir.
 
 ## Kullanım
 
@@ -132,8 +156,33 @@ Uygulama log'larını görmek için:
 flutter logs
 ```
 
+## Katkıda Bulunanlar
+
+Bu projeye katkıda bulunan harika insanlar:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Bekir-Caglar">
+        <img src="https://github.com/Bekir-Caglar.png" width="100px;" alt="Bekir Çağlar"/>
+        <br />
+        <sub><b>Bekir Çağlar</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/eemreozen">
+        <img src="https://github.com/eemreozen.png" width="100px;" alt="Emre Özen"/>
+        <br />
+        <sub><b>Emre Özen</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
 ## Lisans
 
 Bu proje MIT Lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın.
 
-*CityPulse - Şehirlerin Nabzını Tutan Uygulama*
+---
+
+*CityPulse - Şehirlerin Nabzını Tutan Uygulama* 🌆
