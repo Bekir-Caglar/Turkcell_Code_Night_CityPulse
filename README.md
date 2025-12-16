@@ -2,7 +2,7 @@
 
 CityPulse, Türkiye'nin şehirlerindeki çevresel ve teknolojik verileri izleyen, vatandaşların geri bildirimlerini toplayan ve şehir yönetimini destekleyen modern bir mobil uygulamadır.
 
-🏆 **Turkcell CodeNight 2024 - 2. Ödül**
+🏆 **Turkcell CodeNight 2025 - 2. lik Ödülü**
 
 ## Özellikler
 
